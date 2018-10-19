@@ -1,8 +1,13 @@
-<nav class="nav">
-	<ul>
-		<li><a href="/">{{ site.title }}</a></li>
-		{% for page in site.pages %}
-		<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-		{% endfor %}
-	</ul>
-</nav>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+		<div class="mdl-layout__drawer">
+    	<span class="mdl-layout-title">Title</span>
+    	<nav class="mdl-navigation">
+      	<a class="mdl-navigation__link" href="">Link</a>
+      	<a class="mdl-navigation__link" href="">Link</a>
+      	<a class="mdl-navigation__link" href="">Link</a>
+      	<a class="mdl-navigation__link" href="">Link</a>
+    	</nav>
+  	</div>
+	</header>
+</div>
