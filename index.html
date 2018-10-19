@@ -17,20 +17,15 @@ layout: default
               <a href="https://www.npmjs.com/package/bulma" target="_blank" rel="nofollow">
                 <img src="https://img.shields.io/npm/dm/bulma.svg">
               </a>
-            </div>
 
-            {% assign npmInstall = 'npm install bulma' %}
-
-            <pre id="npm" class="intro-npm"><code>{{ npmInstall }}</code><code id="npmCopy" class="intro-npm-copy" data-clipboard-text="{{ npmInstall }}">copy</code></pre>
-
-            <nav class="intro-buttons">
-              <a class="button is-primary is-large" href="{{ site.data.meta.download }}">
+           <nav class="intro-buttons">
+              <a class="button is-primary is-large" href="">
                 <span>
                   <strong>Download</strong>
                   <small>v{{ site.data.meta.version }}</small>
                 </span>
               </a>
-              <a class="button is-light is-large" href="{{ site.data.meta.documentation }}">
+              <a class="button is-light is-large" href="">
                 <span>
                   <span>View</span>
                   <strong>docs</strong>
@@ -53,8 +48,6 @@ layout: default
           </p>
         </div>
       </div>
-
-      {% include index/focus.html %}
     </div>
   </div>
 </section>
